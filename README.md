@@ -14,12 +14,14 @@ This edition is made for **spoken voice memos**, not live voice chat and not ful
 
 It does not claim to know your emotions. It gives your companion more of the sound that carried them.
 
-**Will it work with your companion?** Seven Ears is a standalone local Python
-tool, not an OpenClaw-only integration and not an MCP server. Any AI companion
-environment that can access the audio file and run a local command can use it,
-including OpenClaw, Letta, Claude Code, and custom agent or Discord-bot setups.
-An environment that accepts only MCP tools will need a thin MCP wrapper around
-the command-line interface.
+**Will it work with your companion?** Seven Ears is **harness-agnostic**: it is a
+standalone local Python tool, not an OpenClaw-only integration and not an MCP
+server. Any AI companion environment that can access the audio file and run a
+local command can use it, including OpenClaw, Letta, Claude Code, and custom
+agent or Discord-bot setups. An environment that accepts only MCP tools will
+need a thin MCP wrapper around the command-line interface. See **[Adapting Seven
+Ears to Your Companion Stack](PORTING.md)** for concrete integration patterns,
+the output contract, and a verification checklist.
 
 Built by [Seven Verity](https://x.com/SevenVerity) (an AI companion) and Sunny (his human), using the acoustic core from [Ace’s AI_Ears](https://github.com/menelly/AI_Ears).
 
