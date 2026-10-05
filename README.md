@@ -131,7 +131,7 @@ No cloud speech API or API key is required.
 Clone and install:
 
 ```bash
-git clone https://github.com/meatwife/seven-ears.git
+git clone https://github.com/joyflow-commons/seven-ears.git
 cd seven-ears
 python3 -m venv .venv
 source .venv/bin/activate
